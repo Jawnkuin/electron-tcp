@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-tcp",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron application for test tcp connection",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -17,6 +17,11 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^1.4.1"
+    "electron": "^1.4.1",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
   }
 }
